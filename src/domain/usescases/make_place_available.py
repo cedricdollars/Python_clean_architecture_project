@@ -1,9 +1,9 @@
 #coding:utf-8
 from abc import ABC, abstractmethod
 
-class PrinterTicket(ABC):
+class MakingAvailablePlace(ABC):
     
     @abstractmethod
-    def printTicket(self) :
+    def make_available_place(self, numero_place:int):
         pass
     
